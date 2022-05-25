@@ -1,0 +1,93 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "What are the payments method?",
+        "How to do the payments?",
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "doctors",
+      "patterns": [
+        "Who are the visiting doctors?",
+        "Name the doctors",
+        "Doctors"
+      ],
+      "responses": [
+        "Dr. Sital,Dr. Prabha and Dr.Udit are the visiting doctors"
+      ]
+    },
+    {
+      "tag": "timings",
+      "patterns": [
+        "When is the visiting time?",
+        "Timings",
+        "When will the clinic be opened?"
+      ],
+      "responses": [
+        "Timings:Mon-Friday:10 am-6pm  Lunch time: 12pm-1pm/Saturday & Sunday: Closed"
+      ]
+    },
+    {
+      "tag": "services",
+      "patterns": [
+        "What are the services?",
+        "Services?"
+      ],
+      "responses": [
+        "All types of medical services are available here",
+        "JNU affilated medical servives are available here."
+      ]
+    },
+    {
+      "tag": "patients",
+      "patterns": [
+        "Who are elligible to avail medical services?",
+        "Can anybody go to the clinic?"
+      ],
+      "responses": [
+        "Only persons having any sort of JNU identity can avail the medical services."
+      ]
+    }
+  ]
+}
